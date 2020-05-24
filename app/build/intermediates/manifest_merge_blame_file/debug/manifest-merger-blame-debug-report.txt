@@ -1,0 +1,63 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.buffalo.cse.cse486586.simpledht"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="19" />
+9-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+11-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:7:5-75
+11-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:7:22-72
+12    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+12-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:8:5-77
+12-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:8:22-74
+13    <uses-permission android:name="android.permission.READ_CONTACTS" />
+13-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:9:5-72
+13-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:9:22-69
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:10:5-67
+14-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:10:22-64
+15
+16    <application
+16-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:12:5-30:19
+17        android:allowBackup="true"
+17-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:13:9-35
+18        android:debuggable="true"
+19        android:icon="@drawable/ic_launcher"
+19-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:14:9-45
+20        android:label="@string/app_name"
+20-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:15:9-41
+21        android:theme="@style/AppTheme" >
+21-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:16:9-40
+22        <activity
+22-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:17:9-25:20
+23            android:name="edu.buffalo.cse.cse486586.simpledht.SimpleDhtActivity"
+23-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:18:13-81
+24            android:label="@string/app_name" >
+24-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:19:13-45
+25            <intent-filter>
+25-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:20:13-24:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:21:17-69
+26-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:21:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:23:17-77
+28-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:23:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <provider
+32-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:27:9-28:82
+33            android:name="edu.buffalo.cse.cse486586.simpledht.SimpleDhtProvider"
+33-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:27:19-87
+34            android:authorities="edu.buffalo.cse.cse486586.simpledht.provider" />
+34-->/home/deepali/AndroidStudioProjects/SimpleDht/app/src/main/AndroidManifest.xml:28:13-79
+35    </application>
+36
+37</manifest>
